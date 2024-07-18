@@ -1,0 +1,4 @@
+﻿  Ejercicio_Fase1_TonyBalan.cpp
+C:\Users\Tony Alexander\Documents\Segundo Semestre\Programación Avanzada\Teoría\Prácticas\Ejercicio-Fase1\Ejercicio_Fase1_TonyBalan\Ejercicio_Fase1_TonyBalan\Ejercicio_Fase1_TonyBalan.cpp(37,19): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Ejercicio_Fase1_TonyBalan.vcxproj -> C:\Users\Tony Alexander\Documents\Segundo Semestre\Programación Avanzada\Teoría\Prácticas\Ejercicio-Fase1\Ejercicio_Fase1_TonyBalan\x64\Debug\Ejercicio_Fase1_TonyBalan.exe
