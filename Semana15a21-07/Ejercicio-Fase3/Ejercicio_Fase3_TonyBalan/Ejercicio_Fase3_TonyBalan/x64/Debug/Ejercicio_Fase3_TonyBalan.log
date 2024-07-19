@@ -1,0 +1,6 @@
+﻿  Ejercicio_Fase3_TonyBalan.cpp
+C:\Users\Tony Alexander\Documents\Segundo Semestre\Programación Avanzada\Teoría\Prácticas\Ejercicio-Fase3\Ejercicio_Fase3_TonyBalan\Ejercicio_Fase3_TonyBalan\Ejercicio_Fase3_TonyBalan.cpp(50,33): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Tony Alexander\Documents\Segundo Semestre\Programación Avanzada\Teoría\Prácticas\Ejercicio-Fase3\Ejercicio_Fase3_TonyBalan\Ejercicio_Fase3_TonyBalan\Ejercicio_Fase3_TonyBalan.cpp(61,19): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Tony Alexander\Documents\Segundo Semestre\Programación Avanzada\Teoría\Prácticas\Ejercicio-Fase3\Ejercicio_Fase3_TonyBalan\Ejercicio_Fase3_TonyBalan\Ejercicio_Fase3_TonyBalan.cpp(65,19): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Ejercicio_Fase3_TonyBalan.vcxproj -> C:\Users\Tony Alexander\Documents\Segundo Semestre\Programación Avanzada\Teoría\Prácticas\Ejercicio-Fase3\Ejercicio_Fase3_TonyBalan\x64\Debug\Ejercicio_Fase3_TonyBalan.exe
