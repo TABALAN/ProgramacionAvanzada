@@ -1,0 +1,97 @@
+#include <string>
+#include <iostream>
+using namespace std;
+
+struct Estudiante {
+    string Nombre;
+    char Genero;
+    int Edad;
+    string Carrera;
+    string carne;
+    float resultadoResta;
+};
+
+int main()
+{
+    Estudiante Est[5];
+    string genero;
+
+    for (int i = 0; i < 5; i++)
+    {
+
+        cout << "Ingrese el nombre del estudiante" << endl;
+        //cin >> Est[i].Nombre;
+        getline(cin, Est[i].Nombre);
+        cout << "Ingrese la edad del estudiante" << endl;
+        cin >> Est[i].Edad;
+        //cin >> Est[i].Genero;
+        //do
+        //{
+           //cout << "Ingrese el genero del estudiante" << endl;
+            //getline(cin, temporalRespuesta);
+
+            //if (temporalRespuesta.size() > 1 && temporalRespuesta.size() < 1)
+            //{
+                //cout << "Ingrese solo un caracter." << endl;
+            //}
+        //} 
+        //while ( temporalRespuesta.size() == 1);
+
+        getline(cin, Est[i].Nombre);
+        do {
+            cout << "Ingrese el genero del estudiante" << endl;
+            getline(cin, genero);
+
+            if (genero == "F" || genero == "M")
+            {
+                Est[i].Genero = genero[0];
+            }
+            else
+            {
+                cout << "Ingrese un solo caracter. (M o F)" << endl;
+            }
+        } while (genero != "M" && genero != "F");
+    }
+
+    float prom = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        prom += Est[i].Edad;
+    }
+    prom = prom / 5;
+    cout << "El promedio es: " << prom << endl;
+
+    //Calculo de desviación estándar
+    float desviacion = 0;
+
+    for (int i = 0; i < 5; i++)
+    {
+        desviacion += pow(Est[i].Edad - prom, 2);
+    }
+    desviacion = sqrt(desviacion / 4);
+    cout << "La desviacion estandar es: " << desviacion;
+
+
+    //for (int i = 0; i < 5; i++)
+    //*{
+        //Est[i].resultadoResta =  
+        //pow(, 2);
+    //}
+}
+
+string Mayor(Estudiante Est[], char g)
+{
+    int mayor = 0;
+    string NombreMayor = " ";
+    for (int i = 0; i < 5; i++)
+    {
+        if ((mayor < Est[i].Edad) && (Est[i].Genero = g))
+        {
+            mayor = Est[i].Edad;
+            NombreMayor = Est[i].Nombre;
+        }
+    }
+    return NombreMayor;
+}
+
+
