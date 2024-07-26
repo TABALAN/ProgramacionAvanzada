@@ -23,7 +23,6 @@ int main()
         getline(cin, Est[i].Nombre);
         cout << "Ingrese la edad del estudiante" << endl;
         cin >> Est[i].Edad;
-        getline(cin, Est[i].Nombre);
         do {
             cout << "Ingrese el genero del estudiante" << endl;
             getline(cin, genero);
