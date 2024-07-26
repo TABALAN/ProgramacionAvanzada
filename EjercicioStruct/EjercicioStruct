@@ -20,23 +20,9 @@ int main()
     {
 
         cout << "Ingrese el nombre del estudiante" << endl;
-        //cin >> Est[i].Nombre;
         getline(cin, Est[i].Nombre);
         cout << "Ingrese la edad del estudiante" << endl;
         cin >> Est[i].Edad;
-        //cin >> Est[i].Genero;
-        //do
-        //{
-           //cout << "Ingrese el genero del estudiante" << endl;
-            //getline(cin, temporalRespuesta);
-
-            //if (temporalRespuesta.size() > 1 && temporalRespuesta.size() < 1)
-            //{
-                //cout << "Ingrese solo un caracter." << endl;
-            //}
-        //} 
-        //while ( temporalRespuesta.size() == 1);
-
         getline(cin, Est[i].Nombre);
         do {
             cout << "Ingrese el genero del estudiante" << endl;
@@ -71,12 +57,6 @@ int main()
     desviacion = sqrt(desviacion / 4);
     cout << "La desviacion estandar es: " << desviacion;
 
-
-    //for (int i = 0; i < 5; i++)
-    //*{
-        //Est[i].resultadoResta =  
-        //pow(, 2);
-    //}
 }
 
 string Mayor(Estudiante Est[], char g)
